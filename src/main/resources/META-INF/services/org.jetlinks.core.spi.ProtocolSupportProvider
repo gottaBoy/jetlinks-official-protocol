@@ -1,0 +1,3 @@
+org.jetlinks.protocol.official.JetLinksProtocolSupportProvider
+org.jetlinks.protocol.official.parallel.ParallelProtocolSupportProvider
+

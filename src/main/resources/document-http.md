@@ -8,9 +8,11 @@ Authorization: Bearer {产品或者设备中配置的Token}
 Content-Type: application/json
 
 {
- "properties":{
-   "temp":38.5
- }
+    "deviceId": "deviceId",
+    "properties": {
+        "fps": 30,
+        "speed": 20.0
+    }
 }
 ```
 
@@ -22,8 +24,9 @@ Authorization: Bearer {产品或者设备中配置的Token}
 Content-Type: application/json
 
 {
- "data":{
-   "address": ""
- }
+	"messageId": "1621330658213723945",
+	"data": {
+		"speed": 30.0
+	}
 }
 ```
